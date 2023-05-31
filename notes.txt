@@ -1,0 +1,23 @@
+http://localhost/phpmyadmin/index.php?route=/database/structure&db=surfsidemedia   ->Đường link mở đến database hiện tại
+
+composer require livewire/livewire ->Framework tạo component UI
+
+php artisan make:livewire HomeComponent
+
+php artisan make:livewire ShopComponent
+
+php artisan make:livewire CartComponent
+
+php artisan make:livewire CheckoutComponent
+
+Laravel Breeze là gói đơn giản, gồm các chức năng register, login,, password reset, email verification và password confirm.
+composer require laravel/breeze --dev  ->Cài đặt breeze vào project
+php artisan breeze:install  ->Bước này dùng để tạo ra các views, routes, controllers, resources có liên quan đến xác thực người dùng
+
+npm i && npm run build  -> Cài component cho breeze
+
+php artisan make:middleware AuthAdmin  -> Tạo mới 1 middleware
+
+php artisan make:livewire Admin/AdminDashboardComponent
+
+php artisan make:livewire User/UserDashboardComponent
